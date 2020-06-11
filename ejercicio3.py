@@ -1,6 +1,15 @@
-edad = int(input(" indique su edad"))
+nombre = input("digame su nombre")
+apellido = input(f"digame su apellido {nombre}")
+
+
+#apellido = input("digame su apellido ",nombre)
+
+edad = int(input(f" indique su edad {nombre} {apellido}"))
 print(f"usted tiene {edad} años")
 print("usted tiene", edad,"años")
+peso= float(input("ingrese su peso corporal"))
+print(f"don {nombre} {apellido} tiene un peso de : {peso}")
+
 
 mayoriaEdad= 18
 
