@@ -72,3 +72,11 @@ print("llamado directo ",funcionRetorno())
 
 if(funcionRetorno() ==1):
     print("recibi un uno")
+
+# solicitar al usuario el ingreso de 2 numeros
+# crear funcion que valide:
+# si el primer numero es mayor que el segundo, retornar un 1
+# si el segundo es mayor que el primero, retornar un -1
+# si son iguales retornar un cero
+#imprimir el resultado
+#utilizar funciones
