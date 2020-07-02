@@ -1,4 +1,4 @@
-print("programa para calcular el area de una figura, elija la opcion")
+print("Programa para calcular el area de una figura, elija la opcion")
 print("area de un cuadrado=1")
 print("area de un triangulo=2")
 print("area de un rectangulo=3")
