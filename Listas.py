@@ -1,4 +1,4 @@
-#conjunto de elementos, ordenados segun su ingreso,, son separados por coma
+#conjunto de elementos, ordenados segun su ingreso, son separados por coma
 lista_numeros= [1,2,3,4,5,6,7,8,9,0]
 print(lista_numeros)
 

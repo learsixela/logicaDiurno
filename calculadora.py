@@ -1,7 +1,7 @@
 print("**********************")
 print("Ejercicio calculadora")
 print("**********************")
-numero1 = int(input("ingrese un numero "))
+numero1 = int(input("ingrese un numero ")) #int o float
 numero2 = int(input("ingrese un segundo numero "))
 print("**********************")
 print("ingrese su opción:")
@@ -12,7 +12,7 @@ print("(4) dividir")
 opcion= input()
 print("**********************")
 
-if opcion == "1":
+if opcion == 1:
     print(f" el resultado de la suma es {numero1+numero2}")
 elif opcion == "2":
     print(f" el resultado de la resta es {numero1-numero2}")
@@ -23,6 +23,12 @@ elif opcion == "4":
         print("No se puede dividir por cero")
     else:
         print(f" el resultado de la division es {numero1 / numero2}")
+
+    if opcion != 0:
+        print(f" el resultado de la division es {numero1 / numero2}")
+        print(" el resultado de la division es:",numero1 / numero2)
+        print(f" el numero uno es: {numero1}")
+        print(" el numero uno es:",numero1," y el numero2 es:", numero2)
 else:
     print("Ops! opcion ingresada no es valida.")
 print("**********************")
