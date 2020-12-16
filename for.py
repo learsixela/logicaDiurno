@@ -10,7 +10,7 @@ lista = ["a","e","i","o","u"]
 for i in lista:
     print("i = ", i)
 
-#rango
+#rangos
 print("********** rango ***********")
 for x in range(5):#0,1,2,3,4
     print("range x = ", x)
